@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace CarRentalManagement.Server.Configurations.Entities
 {
-    public class ColorSeedConfigurations : IEntityTypeConfiguration<Color>
+    public class ColorSeedConfigurations : IEntityTypeConfiguration<Colour>
     {
-        public void Configure(EntityTypeBuilder<Color> builder)
+        public void Configure(EntityTypeBuilder<Colour> builder)
         {
             builder.HasData(
-                new Color
+                new Colour
                 {
                     Id = 1,
                     Name = "Black",
@@ -22,7 +22,7 @@ namespace CarRentalManagement.Server.Configurations.Entities
                     CreatedBy = "System",
                     UpdatedBy = "System"
                 },
-                new Color
+                new Colour
                 {
                     Id = 2,
                     Name = "Blue",

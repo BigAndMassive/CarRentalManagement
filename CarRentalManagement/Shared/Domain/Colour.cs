@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarRentalManagement.Shared.Domain
 {
-    public class Color : BaseDomainModel
+    public class Colour : BaseDomainModel
     {
         public string Name { get; set; }
        
